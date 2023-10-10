@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { Controller, Delete, Get } from '@nestjs/common';
-import { DoctorAccess } from '../services/doctor.services';
+import { DoctorAccess } from './doctor.services';
 
 
 

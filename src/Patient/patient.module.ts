@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
-import { PatientController } from 'src/controllers/patient.controller';
-import { PatientAccess } from 'src/services/patient.services';
+import { PatientController } from 'src/Patient/patient.controller';
+import { PatientAccess } from 'src/Patient/patient.services';
 @Module({
   imports: [],
   controllers: [PatientController],

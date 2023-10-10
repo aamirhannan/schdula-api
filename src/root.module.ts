@@ -1,10 +1,9 @@
 /* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
-import { AdminModule } from './modules/admin.module';
-import { DoctorModule } from './modules/doctor.module';
-import { PatientModule } from './modules/patient.module';
+import { DoctorModule } from './Doctor/doctor.module';
+import { PatientModule } from './Patient/patient.module';
 @Module({
-  imports: [AdminModule, DoctorModule, PatientModule],
+  imports: [DoctorModule, PatientModule],
   controllers: [],
   providers: [],
 })
